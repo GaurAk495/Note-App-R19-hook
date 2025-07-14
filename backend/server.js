@@ -1,6 +1,7 @@
 import express from "express";
 import noteRoute from "./routes/notesRoute.js";
 import { connectDB } from "./config/connectDB.js";
+import "dotenv/config";
 import cors from "cors";
 
 const app = express();

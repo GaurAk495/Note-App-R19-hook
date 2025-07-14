@@ -7,8 +7,8 @@
   "type": "module",
   "main": "server.js",
   "scripts": {
-    "dev": "nodemon  --env-file=.env server.mjs",
-    "start": "node  --env-file=.env server.mjs",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
